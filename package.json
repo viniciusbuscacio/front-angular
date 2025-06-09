@@ -1,6 +1,7 @@
 {
   "name": "front-angular",
   "version": "1.0.0",
+
   "type": "module",
   "scripts": {
     "build": "tsc",
@@ -9,5 +10,12 @@
   },
   "devDependencies": {
     "typescript": "^5.4.5"
+
+  "main": "server.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.5.1"
+
   }
 }
