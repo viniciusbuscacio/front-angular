@@ -1,6 +1,7 @@
 # front-angular
 
 
+
 This repository includes an example script demonstrating how to send a POST request where the body contains a `Resquest` object with `groupId` and `artifactId` fields.
 
 To build the TypeScript source and run the script:
@@ -16,7 +17,7 @@ file from an API and save it locally. Build it in the same way and run using
 ```bash
 node dist/download-zip.js
 ```
-=======
+
 This project exposes a small proxy endpoint for development.
 
 ## Usage
