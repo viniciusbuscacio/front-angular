@@ -1,0 +1,13 @@
+{
+  "name": "front-angular",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/send-request.js",
+    "test": "echo \"No tests specified\""
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
