@@ -9,6 +9,13 @@ To build the TypeScript source and run the script:
 npm run build
 npm start
 ```
+
+An additional example, `src/download-zip.ts`, shows how to request a binary
+file from an API and save it locally. Build it in the same way and run using
+
+```bash
+node dist/download-zip.js
+```
 =======
 This project exposes a small proxy endpoint for development.
 
